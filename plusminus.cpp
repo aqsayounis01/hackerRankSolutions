@@ -1,10 +1,3 @@
-Plus Minus
-EasyProblem Solving (Basic)Max Score: 10Success Rate: 98.38%
-
-
----------------------------------------------------------------------------------
-solution:
-
 
 #include<iostream>
 #include<stdio.h>
