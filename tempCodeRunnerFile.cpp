@@ -8,16 +8,16 @@ int main()
     long arr[5];
     long temp;
  
-// for (int  i = 0; i < 5; i++)
-// {
-//     cin>>arr[i];
+for (int  i = 0; i < 5; i++)
+{
+    cin>>arr[i];
 
-//     if (arr[i]<1 || arr[i]>1000000000)
-//     {
-//         cout<<"Invalid Input";
-//         return 0;
-//     }
-// }
+    if (arr[i]<1 || arr[i]>1000000000)
+    {
+        cout<<"Invalid Input";
+        return 0;
+    }
+}
         // for sorting the array
         for (int   i = 0; i < 5; i++)
         {
@@ -54,7 +54,6 @@ int main()
 
     cout<<min<<" "<<max;
 
-return 0;
     }
     
 
