@@ -1,1 +1,4 @@
-cout<<"exec";
+while (inp != ':')
+    // {
+        
+    // }
