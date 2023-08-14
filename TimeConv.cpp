@@ -83,7 +83,7 @@ int main()
     cin>>inp;
    
     //constraints 
-    if (inp[2] != ':' && inp[5] != ':' )
+    if (inp[2] != ':' || inp[5] != ':' )
     {
        cout<<"Invalid Input C";
        return 0;
@@ -95,7 +95,7 @@ int main()
     {
         t1+=inp[i];
     }
-    if(stoi(t1)>=59 && stoi(t1)<=0)
+    if(stoi(t1)>=13 || stoi(t1)<=0)
     {
         cout<<"Invalid Input t1";
         return 0;
@@ -106,7 +106,7 @@ int main()
     {
         t2+=inp[i];
     }
-    if(stoi(t2)>=59 && stoi(t2)<=0)
+    if(stoi(t2)>=59 || stoi(t2)<=0)
     {
         cout<<"Invalid Input t2 ";
         return 0;
@@ -116,7 +116,7 @@ int main()
     {
         t3+=inp[i];
     }
-    if(stoi(t3)>=59 && stoi(t1)<=0)
+    if(stoi(t3)>=59 || stoi(t1)<=0)
     {
         cout<<"Invalid Input t3";
         return 0;
