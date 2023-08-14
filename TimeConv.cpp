@@ -1,5 +1,3 @@
-
-
 #include<iostream>
 #include<string>
 using namespace std;
@@ -133,11 +131,6 @@ int main()
         cout<<"Invalid Input t4 ";
         return 0;
     }
-
-
-
-
-    
     
     chk(inp);
 
